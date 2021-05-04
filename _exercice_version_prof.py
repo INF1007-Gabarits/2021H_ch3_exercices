@@ -6,35 +6,31 @@ import math
 
 
 def square_root(a: float) -> float:
-    return math.sqrt(a)
+    pass
 
 
 def square(a: float) -> float:
-    return a ** 2
+    pass
 
 
 def average(a: float, b: float, c: float) -> float:
-    return sum([a, b, c]) / 3
+    pass
 
 
 def to_radians(angle_degs: float, angle_mins: float, angle_secs: float) -> float:
-    return math.radians(angle_degs + (angle_mins + (angle_secs / 60)) / 60)
+    pass
 
 
 def to_degrees(angle_rads: float) -> tuple:
-    degrees = math.degrees(angle_rads)
-    min = (degrees - math.floor(degrees)) * 60
-    sec = (min - math.floor(min)) * 60
-
-    return math.floor(degrees), math.floor(min), sec
+    pass
 
 
 def to_celsius(temperature: float) -> float:
-    return (temperature - 32) / 1.8
+    pass
 
 
 def to_farenheit(temperature: float) -> float:
-    return temperature * 1.8 + 32
+    pass
 
 
 def main() -> None:
